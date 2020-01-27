@@ -12,23 +12,6 @@ rra / rrb / rrr: Shifts all values down in stack a / stack b / both stacks so th
 pa:              Pushes the top number in stack b to stack a.
 pb:              Pushes the top number in stack a to stack b.
 
-Example:
-
-A  B        A  B
-1     PB    2  1
-2     ->    3
-3
-
-A  B        A  B
-1  4   RR   2  5
-2  5   ->   3  6
-3  6        1  4
-
-A  B        A  B
-1     SA    2
-2     ->    1
-3           3
-
 The objective was to make 2 programs:
 
 CHECKER

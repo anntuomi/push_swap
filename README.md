@@ -24,7 +24,7 @@ usage: ./push_swap (list of integers):
 - Produces a list of commands that sort the given list.
 
 Can run the programs together like this:
-ARG="<<random values>>"; ./push_swap $ARG | ./checker $ARG
+ARG="-random numbers-"; ./push_swap $ARG | ./checker $ARG
 To determine if the algorithm correctly sorts the numbers or not.
 
 Error codes for both programs(echo $? on mac after error):

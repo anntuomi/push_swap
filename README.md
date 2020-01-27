@@ -34,6 +34,8 @@ Error codes for both programs(echo $? on mac after error):
 4 - List contained duplicate numbers
 5 - Invalid command
 
+File libft contains c library function copies made by me (including printf), in addition to some other useful ones.
+
 In Hive we have to code C with certain limitations (to name a few):
 - We can't use library functions (apart from malloc, free, write, read and exit)
 unless we make one ourself

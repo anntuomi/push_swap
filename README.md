@@ -15,16 +15,16 @@ pb:              Pushes the top number in stack a to stack b.
 The objective was to make 2 programs:
 
 CHECKER
-usage: ./checker <list of integers>, for example ./checker 3 100 -1 0 2147483647
+usage: ./checker (list of integers), for example ./checker 3 100 -1 0 2147483647
 - Enter allowed commands (1 per line) and press ctrl + D.
 Program will print OK if given commands sort the integer list, and KO if not.
 
 PUSH_SWAP
-usage: ./push_swap <list of integers>:
+usage: ./push_swap (list of integers):
 - Produces a list of commands that sort the given list.
 
 Can run the programs together like this:
-ARG="<random values>"; ./push_swap $ARG | ./checker $ARG
+ARG="<<random values>>"; ./push_swap $ARG | ./checker $ARG
 To determine if the algorithm correctly sorts the numbers or not.
 
 Error codes for both programs(echo $? on mac after error):

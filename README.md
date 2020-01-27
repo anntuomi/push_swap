@@ -4,13 +4,13 @@ A sorting algorithm project where numbers get sorted using 2 stacks and certain 
 This is a project done in Hive Helsinki where the aim is to sort a list of numbers using stacks A and B.
 For the assignment, the following actions are available:
 
-sa / sb / ss:    Swaps around the two top numbers in stack a / stack b / both stacks.
-ra / rb / rr:    Shifts all values up in stack a / stack b / both stacks so that the top number
+- sa / sb / ss:    Swaps around the two top numbers in stack a / stack b / both stacks.
+- ra / rb / rr:    Shifts all values up in stack a / stack b / both stacks so that the top number
                  becomes the bottom number.
-rra / rrb / rrr: Shifts all values down in stack a / stack b / both stacks so that the bottom
+- rra / rrb / rrr: Shifts all values down in stack a / stack b / both stacks so that the bottom
                  number becomes the top number.
-pa:              Pushes the top number in stack b to stack a.
-pb:              Pushes the top number in stack a to stack b.
+- a:              Pushes the top number in stack b to stack a.
+- pb:              Pushes the top number in stack a to stack b.
 
 The objective was to make 2 programs:
 

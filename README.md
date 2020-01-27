@@ -28,11 +28,11 @@ ARG="<<random values>>"; ./push_swap $ARG | ./checker $ARG
 To determine if the algorithm correctly sorts the numbers or not.
 
 Error codes for both programs(echo $? on mac after error):
-1 - Memory allocation failure
-2 - One or more of the arguments weren't a number
-3 - One of the numbers was over or under integer limits
-4 - List contained duplicate numbers
-5 - Invalid command
+- 1 - Memory allocation failure
+- 2 - One or more of the arguments weren't a number
+- 3 - One of the numbers was over or under integer limits
+- 4 - List contained duplicate numbers
+- 5 - Invalid command
 
 File libft contains c library function copies made by me (including printf), in addition to some other useful ones.
 

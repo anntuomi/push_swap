@@ -27,6 +27,9 @@ Can run the programs together like this:
 ARG="-random numbers-"; ./push_swap $ARG | ./checker $ARG
 To determine if the algorithm correctly sorts the numbers or not.
 
+The algorithm didn't quite reach the top score with higher list sizes.
+I reckon the problem is that I didn't do the sorting in any extra divisions when there are more numbers. I ran out of time, but if I hadn't, I would have optimized the algorithm that way.
+
 Error codes for both programs(echo $? on mac after error):
 - 1 - Memory allocation failure
 - 2 - One or more of the arguments weren't a number
